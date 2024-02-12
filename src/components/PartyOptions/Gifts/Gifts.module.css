@@ -1,0 +1,55 @@
+.gifts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gifts p {
+    margin-top: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.giftsList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.giftItem {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(39, 157, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.giftItem:hover, .activeItem {
+    background-color: orange;
+}
+
+.giftItem p {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.giftItem img {
+    width: 150px;
+}
+
+.giftItem span {
+    text-align: center;
+    font-size: 12px;
+}

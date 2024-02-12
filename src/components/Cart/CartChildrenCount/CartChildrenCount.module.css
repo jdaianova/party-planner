@@ -1,0 +1,36 @@
+.cartChildrenCount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cartChildrenCount h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+.cartChildrenCount button {
+    background-color: transparent;
+    width: 30px;
+    color: rgb(51, 146, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartChildrenCount button:hover,
+.cartChildrenCount button:active {
+    color: rgb(24, 92, 148);
+}
+
+.cartChildrenCount p {
+    text-align: center;
+    width: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
